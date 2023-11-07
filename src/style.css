@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2E2E2E;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#header{
+    padding: 40px 0px;
+    gap: 20px;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#header h4{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+#main a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+    width: 70%;
+    background-color: rgb(229, 255, 0);
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ #main p{
+    margin-right: 200px;
+    word-break: normal;
+}
+
+#logo2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* @media screen and (max-width:1024px) {
+    #main p{
+        margin-right: 20px;
+    }
+    
+    #main a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        background-color: rgb(229, 255, 0);
+    }
+    
+    #main #logo2{
+        margin-right: 20px;
+    }
+} */
+
+@media screen and (max-width:768px) {
+    #main p{
+        margin-right: 20px;
+    }
+    
+    #main a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 70%;
+        background-color: rgb(229, 255, 0);
+    }
+    
+    #main #logo2{
+        margin-right: 100px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    #main p{
+        margin-right: 20px;
+    }
+    
+    #main a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 90%;
+        background-color: rgb(229, 255, 0);
+    }
+    
+    #main #logo2{
+        margin-right: 20px;
+    }
+}
+
